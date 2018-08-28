@@ -2,7 +2,7 @@
 
 ![](https://user-images.githubusercontent.com/7523776/42511893-1bef386e-8421-11e8-8138-aefb5ad0968b.png)
 
-OpenStereotaxy is a collection of Python modules and add-ons that have been written to assist experimental neurophysiologists in planning stereotaxic surgical implantation of electrode chambers. To achieve this, we take advantage of various specialized open-source (GNU General Public License) software:
+OpenStereotaxy is a collection of Python modules and add-ons that have been written to assist experimental neurophysiologists in planning stereotaxic surgical implantation of electrode chambers. To achieve this, our pipeline takes advantage of multiple specialized open-source (GNU General Public License) software:
 * [3D Slicer](https://www.slicer.org/) - for anatomical image registration, segmentation, and surface extraction
 * [Blender](https://www.blender.org/) - for 3D virtual reconstruction and boolean subtraction operations
 * [FreeCAD](https://www.freecadweb.org/) - for parametric generation of custom 3D-printable implants
