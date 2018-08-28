@@ -1,12 +1,18 @@
 # OpenStereotaxy
 
+<dl>
+<img src="https://user-images.githubusercontent.com/7523776/42511893-1bef386e-8421-11e8-8138-aefb5ad0968b.png" width=750> 
+</dl>
+
 OpenStereotaxy is a collection of Python modules and add-ons that have been written to assist experimental neurophysiologists in planning stereotaxic surgical implantation of electrode chambers. To achieve this, we take advantage of various specialized open-source (GNU General Public License) software:
-* [Slicer](https://www.slicer.org/) - for anatomical image registration, segmentation, and surface extraction
+* [3D Slicer](https://www.slicer.org/) - for anatomical image registration, segmentation, and surface extraction
 * [Blender](https://www.blender.org/) - for 3D virtual reconstruction and boolean subtraction operations
 * [FreeCAD](https://www.freecadweb.org/) - for parametric generation of custom 3D-printable implants
 * [MeshLab](http://www.meshlab.net/) - for cleaning and editing mesh surfaces prior to 3D-printing
 
 Although there have been numerous previous efforts by neurophysiologists to program software for planning neural implantations [3-5], the results are not the most user friendly, frequently depend on licensed software (such as Matlab) and lack the level of online support that can be provided by more mature open-source projects with large user bases (such as those used here). On the other hand, commercial software and services [6-7] are costly and provide the researcher with less control than open-source alternatives. Aside form the use of MRI and CT data to inform surgical planning, there has been an increasing use of 3D-printing and computer-controlled machining technologies to prepare custom implants for neurophysiology research [8-10]. Catering for this need requires the use of parametric 3D-modelling and mesh editing softwares, for which there are fortunately several well-established and supported open-source options that can save researchers time and money.
+
+![](https://user-images.githubusercontent.com/7523776/42489006-9960bd72-83d6-11e8-8c6b-b15b245d1f48.png)
 
 ---
 ## 3D Slicer
