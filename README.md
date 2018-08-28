@@ -15,6 +15,8 @@ Although there have been numerous previous efforts by neurophysiologists to prog
 ---
 ## 3D Slicer
 
+The origins of 3D Slicer were summarized by Federov et al. (2012) as follows:
+
 > David Gering presented the initial prototype of the Slicer software in his MIT Master's thesis in 1999 [1] based on the earlier experience of the research groups at MIT and Surgical Planning Lab (SPL) [2]. Subsequently, Steve Pieper assumed the role of the Chief Architect, commencing the work of transforming 3D Slicer into an industrial-strength package. Since 1999, Slicer has been under continuous development at the SPL under the leadership of Ron Kikinis. Today it is developed mostly by professional engineers in close collaboration with algorithm developers and application domain scientists, with the participation of Isomics Inc., Kitware Inc. and GE Global Research and with significant contributions from the growing Slicer community. Initially envisioned as a neurosurgical guidance, visualization and analysis system, over the last decade, Slicer has evolved into an integrated platform that has been applied in a variety of clinical and preclinical research applications, as well as for the analysis of nonmedical images. Improvement and maintenance of the software have been possible primarily through the support from the National Institutes of Health (NIH).
 
 ---
