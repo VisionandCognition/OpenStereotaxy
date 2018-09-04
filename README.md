@@ -10,14 +10,29 @@ OpenStereotaxy is a collection of Python modules and add-ons that have been writ
 
 Although there have been numerous previous efforts by neurophysiologists to program software for planning neural implantations [3-5], the results are not the most user friendly, frequently depend on licensed software (such as Matlab) and lack the level of online support that can be provided by more mature open-source projects with large user bases (such as those used here). On the other hand, commercial software and services [6-7] are costly and provide the researcher with less control than open-source alternatives. In addition to the use of MRI and CT data to inform surgical planning, there has been an increasing use of 3D-printing and computer-controlled machining technologies to prepare custom implants for neurophysiology research [8-10]. Catering for this need requires the use of parametric 3D-modelling and mesh editing softwares, for which there are fortunately several well-established and supported open-source options that can save researchers time and money.
 
+These software have several advantageous features in common. They are all: 
+* open-source (free)
+* cross-platform (work on all operating systems)
+* Python scriptable (for automating specific tasks)
+* supported by large online user communities
+* under continuous development
+
 ![](https://user-images.githubusercontent.com/7523776/42489006-9960bd72-83d6-11e8-8c6b-b15b245d1f48.png)
 
 ---
 ## 3D Slicer
 
-The origins of 3D Slicer were summarized by Federov et al. (2012) as follows:
+3D Slicer was started by David Gering during his Master's degree at MIT and Harvard's [Surgical Planning Lab (SPL)](https://www.spl.harvard.edu/) [1]. Subsequently, Steve Pieper took over the project of developing 3D Slicer into an industrial-strength package, and Slicer has been under continuous development at the SPL under Ron Kikinis since. It is developed by professional engineers with the participation of commercial partners and contributions from the user community. It was initially envisioned as a neurosurgical guidance, visualization and analysis system, but has evolved to support a variety of clinical and basic research applications, as well as for the analysis of nonmedical images. Improvement and maintenance of the software have been possible primarily through the support from the National Institutes of Health (NIH).
 
-> David Gering presented the initial prototype of the Slicer software in his MIT Master's thesis in 1999 [1] based on the earlier experience of the research groups at MIT and Surgical Planning Lab (SPL) [2]. Subsequently, Steve Pieper assumed the role of the Chief Architect, commencing the work of transforming 3D Slicer into an industrial-strength package. Since 1999, Slicer has been under continuous development at the SPL under the leadership of Ron Kikinis. Today it is developed mostly by professional engineers in close collaboration with algorithm developers and application domain scientists, with the participation of Isomics Inc., Kitware Inc. and GE Global Research and with significant contributions from the growing Slicer community. Initially envisioned as a neurosurgical guidance, visualization and analysis system, over the last decade, Slicer has evolved into an integrated platform that has been applied in a variety of clinical and preclinical research applications, as well as for the analysis of nonmedical images. Improvement and maintenance of the software have been possible primarily through the support from the National Institutes of Health (NIH).
+---
+## FreeCAD
+
+FreeCAD was started by [Jürgen Riegel](https://www.freecadweb.org/wiki/History) in 2001 as a Graphical Object Modeler (GOM), with the idea to use Qt, Python and Cas.CADE - a previously commercial CAD-Kernel that became the open-source [OpenCascade](https://www.opencascade.com/) in 1999. It has been under constand development since, and was added to Debian and Ubuntu repositories in 2009-2010. 
+
+---
+## Blender
+
+Blender was started by [Ton Roosendaal](https://www.blender.org/foundation/history/) in 1995, and initially developed through commercial funding. In 2002 Roosendal founded the non-profit Blender Foundation, which funded continued development of Blender as open-source software under the GNU General Public License.  
 
 ---
 
