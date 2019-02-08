@@ -1,6 +1,19 @@
-
-# SurgeryPlannerTool.py
+# OpenStereotaxy.py
 # 
+
+bl_info = {
+    "name":     "OpenStereotaxy",
+    "author":   "Aidan Murphy",
+    "version":  (1, 0, 0),
+    "blender":  (2, 79, 0),
+    "location": "View3D",
+    "description": "Add-on for planning stereotaxic surgical implantation of microelectrodes for neurophysiology",
+    "category": "Development",
+    "warning": "",
+    "wiki_url": "https://github.com/MonkeyGone2Heaven/OpenStereotaxy/wiki",
+    "tracker_url": "",
+}
+
 
 import bpy
 import os
