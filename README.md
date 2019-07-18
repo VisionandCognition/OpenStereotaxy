@@ -6,7 +6,6 @@ OpenStereotaxy is a collection of Python modules and add-ons that have been writ
 * [3D Slicer](https://www.slicer.org/) - for anatomical image registration, segmentation, and surface extraction
 * [Blender](https://www.blender.org/) - for 3D virtual reconstruction and boolean subtraction operations
 * [FreeCAD](https://www.freecadweb.org/) - for parametric generation of custom 3D-printable implants
-* [MeshLab](http://www.meshlab.net/) - for cleaning and editing mesh surfaces prior to 3D-printing
 
 Although there have been numerous previous efforts by neurophysiologists to program software for planning neural implantations [3-5], the results are not the most user friendly, frequently depend on licensed software (such as Matlab) and lack the level of online support that can be provided by more mature open-source projects with large user bases (such as those used here). On the other hand, commercial software and services [6-7] are costly and provide the researcher with less control than open-source alternatives. In addition to the use of MRI and CT data to inform surgical planning, there has been an increasing use of 3D-printing and computer-controlled machining technologies to prepare custom implants for neurophysiology research [8-10]. Catering for this need requires the use of parametric 3D-modelling and mesh editing softwares, for which there are fortunately several well-established and supported open-source options that can save researchers time and money.
 
